@@ -1,5 +1,6 @@
 cat .repo/manifests.git/config
 rm -rf .repo/manifests
+rm -rf .repo/manifests.git/config
 repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs
 cat .repo/manifests.git/config
 
