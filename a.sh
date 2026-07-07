@@ -10,3 +10,6 @@ cat ~/.bashrc
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs
 
 cat .repo/manifests.git/config
+
+repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs --depth 1
+cat .repo/manifests.git/config
